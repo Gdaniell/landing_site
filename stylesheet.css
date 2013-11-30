@@ -20,8 +20,17 @@ h2 {
 	background-size: cover;
 	height: 300px;
 }
-form{
+.email{
 	padding-top: 50px;
 	text-align: center;
 
+}
+.survey {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 30px;
+	line-height: 2;
+}
+input {
+	margin-left: 200px;
 }
