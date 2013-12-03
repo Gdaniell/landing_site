@@ -1,4 +1,6 @@
-
+body {
+	background-image: url(/wild_flowers.png); 
+}
 
 .intro {
 	text-align: left;
@@ -14,23 +16,42 @@ h2 {
 	text-align: center;
 	padding-left: 600px;
 }
+.trial{
+	background-image: url(https://lh4.googleusercontent.com/p76luWDMEvqJ-Xdqb52zrYAm0ontccmdAoAAr4iWFXTz=w1286-h430-p-no);
+	background-size: cover;
+}
 .toppage{
-	background-color: #B6BEBD;
+	
 	padding-top: -30px;
 	background-size: cover;
 	height: 300px;
+	color:white ;
 }
 .email{
 	padding-top: 50px;
 	text-align: center;
+	
 
 }
 .survey {
 	text-align: left;
-	margin-left: 20px;
 	margin-top: 30px;
 	line-height: 2;
 }
-input {
-	margin-left: 200px;
+
+
+form {
+	background-image: url(wild_flowers.png); 
+	color: white;
+	margin: 50px;
+	padding: 40px;
 }
+.btn {
+	margin: 20px;
+	color: white;
+	border-color: white;
+	border: 2px;
+	background-color: rgb(108, 158, 106);
+	
+}
+
