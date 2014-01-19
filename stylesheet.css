@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-font-family: Lobster, cursive;
+
 }
 
 .right {
@@ -73,6 +73,12 @@ form {
 	background-color: rgba(0,0,0,0.7);
 	font-family: Abel, cursive;
 	font-size: 18px;
+}
+.big {
+font-size:150%;
+}
+
+	
 }
 .btn {
 	margin: 20px;
