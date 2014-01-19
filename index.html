@@ -3,12 +3,16 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="dist/css/bootstrap.css" rel="stylesheet">
+   
+    <link href='http://fonts.googleapis.com/css?family=Emblema+One&effect=vintage' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+
 </head>
-<body>
-	<div class= "toppage">
+<body class= "trial">
+
+	<div class= "toppage" class="font-effect-vintage">
 			<h3 class="intro" > Frustrated? Angry? Distracted? Tired? ... </h3>
-			<h2 > SNAP OUT OF IT </h2> 
-			<h3 class="right" > is here to help </h3>
+			<h2 class="title" > SNAP OUT OF IT </h2> 
 		</div>
 
 	<div class= "email">
@@ -25,37 +29,43 @@
 	<div class= "survey">
 		<form action="https://docs.google.com/forms/d/17bCBKx52v-m6rVlROIA3o8JP_krdt9jH583m6Qo10jQ/formResponse" method="post"
 	        target="hidden_iframe" onsubmit="submitted=true;">
-	        <ol>
-	            <li>Name 
-	            	<input type="text" name='name'> </li> </br>
-	            <li> Age
-	            	 <input type="text" name='age'> </li> </br>
+	        
+	            <label>Name </label>
+	            <input type="text" name='name'> </br>
+	            <label> Age </label>
+	            <input type="text" name='age'>  </br>
 	         
-				<li> What did the bad mood cost (i.e three hours not being able to study)? 
+				<label> What did the bad mood cost (i.e three hours not being able to study)? </label>
 					<input type="text" name='time cost'> </li></br>
-	            <li>Rate your ability to manage your emotion/temper from 1 to 5 with 5 being the best. </li>
+	            <label>Rate your ability to manage your emotion/temper from 1 to 5 with 5 being the best. </label> </br>
 	            	<input type="radio" name='temper' value= "1"> 1 </br>
 	           		<input type="radio" name='temper' value= "2"> 2 </br>
 	            	<input type="radio" name='temper' value= "3"> 3 </br>
 	            	<input type="radio" name='temper' value= "4"> 4</br>
 	            	<input type="radio" name='temper' value= "5"> 5</br> </br>
-	            <li>What bad emotions do you experience most frequently?
-	            	<input type="text" name='emotion type'> </li></br>
-	            <li>When was last time your bad emotion was triggered?
-	            	<input type="text" name='when'></li></br>
-				<li>By what?
-					<input type="text" name='by what'></li></br>
-	            <li>In what setting?
-	            	<input type="text" name='setting'></li></br>
-	            <li>Did you do anything about the bad emotion and how (i.e talking to friends or listening to music)?
-	            	<input type="text" name='action'></li></br>  
-	            <li>How did you hear about us? 
-	            	<input type="text" name='us'></li></br>
-	        </ol>
+	            <label>What bad emotions do you experience most frequently? </label>
+	            	<input type="text" name='emotion type'> </br>
+	            <label>When was last time your bad emotion was triggered? </label>
+	            	<input type="text" name='when'></br>
+				<label>By what? </label>
+					<input type="text" name='by what'></br>
+	            <label>In what setting? </label>
+	            	<input type="text" name='setting'></br>
+	            <label>Did you do anything about the bad emotion and how (i.e talking to friends or listening to music)? </label>
+	            	<input type="text" name='action'></br>  
+	            <label>How did you hear about us? </label>
+	            	<input type="text" name='us'></br>
+	        
 
-	            <input type="submit" class='btn'>
+	            <input type="submit" class='btn'> </br>
+	            <p>  </p>
 
 	</div>
+
+	<div>
+		<p> </p> </br>
+	</div>
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -66,5 +76,6 @@
   ga('send', 'pageview');
 
 </script>
+
 </body>
 </html>

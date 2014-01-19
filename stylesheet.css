@@ -1,36 +1,90 @@
-
+body {
+	background-image: url(/wild_flowers.png); 
+	font-family: Abel, cursive;
+	font-size: 18px;
+	
+}
 
 .intro {
 	text-align: left;
 	margin-left: 20px;
 	padding-top: 30px;
+	font-family: Abel, cursive;
+	font-size: 30px
+
 }
+
+.title{
+
+	font-family: 'Emblema One', cursive;
+	font-size: 72px;
+	padding-top: 80px;
+}
+
+
 
 h2 {
 	text-align: center;
 	padding: 30px;
+	
+	
 }
+
+h3 {
+font-family: Lobster, cursive;
+}
+
 .right {
 	text-align: center;
 	padding-left: 600px;
+	font-family: Abel, cursive;
+}
+.trial{
+	background-image: url(https://lh5.googleusercontent.com/-ipjCr4bAVmY/Utu_kevWNbI/AAAAAAAA-Yk/QF2htMVFvrU/w1808-h680-no/tigerreflect.jpg);
+	background-size: 100%;
+	
 }
 .toppage{
-	background-color: #B6BEBD;
+	
 	padding-top: -30px;
-	background-size: cover;
+	background-size: 50%;
 	height: 300px;
+	color:white ;
+
 }
 .email{
-	padding-top: 50px;
+	padding-top: 20px;
 	text-align: center;
+	
 
 }
 .survey {
 	text-align: left;
-	margin-left: 20px;
 	margin-top: 30px;
 	line-height: 2;
 }
-input {
-	margin-left: 200px;
+
+
+form {
+	/*background-image: url(wild_flowers.png);*/
+	color: white;
+	margin: 50px;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.7);
+	font-family: Abel, cursive;
+	font-size: 18px;
 }
+.btn {
+	margin: 20px;
+	color: white;
+	border-color: white;
+	border: 2px;
+	background-color: rgb(108, 158, 106);
+	
+}
+
+label {
+	line-height: 4;
+	padding-right: 30px;
+}
+
