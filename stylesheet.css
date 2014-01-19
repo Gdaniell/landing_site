@@ -1,34 +1,59 @@
 body {
 	background-image: url(/wild_flowers.png); 
+	font-family: Abel, cursive;
+	font-size: 18px;
+	
 }
 
 .intro {
 	text-align: left;
 	margin-left: 20px;
 	padding-top: 30px;
+	font-family: Abel, cursive;
+	font-size: 30px
+
 }
+
+.title{
+
+	font-family: 'Emblema One', cursive;
+	font-size: 72px;
+	padding-top: 80px;
+}
+
+
 
 h2 {
 	text-align: center;
 	padding: 30px;
+	
+	
 }
+
+h3 {
+font-family: Lobster, cursive;
+}
+
 .right {
 	text-align: center;
 	padding-left: 600px;
+	font-family: Abel, cursive;
 }
 .trial{
-	background-image: url(https://lh4.googleusercontent.com/p76luWDMEvqJ-Xdqb52zrYAm0ontccmdAoAAr4iWFXTz=w1286-h430-p-no);
-	background-size: cover;
+	background-image: url(/Users/georgiedaniell/Documents/coding_course/landing_site/tigerreflect.jpg);
+	background-size: 100%;
+	
 }
 .toppage{
 	
 	padding-top: -30px;
-	background-size: cover;
+	background-size: 50%;
 	height: 300px;
 	color:white ;
+
 }
 .email{
-	padding-top: 50px;
+	padding-top: 20px;
 	text-align: center;
 	
 
@@ -41,10 +66,13 @@ h2 {
 
 
 form {
-	background-image: url(wild_flowers.png); 
+	/*background-image: url(wild_flowers.png);*/
 	color: white;
 	margin: 50px;
 	padding: 40px;
+	background-color: rgba(0,0,0,0.7);
+	font-family: Abel, cursive;
+	font-size: 18px;
 }
 .btn {
 	margin: 20px;
@@ -53,5 +81,10 @@ form {
 	border: 2px;
 	background-color: rgb(108, 158, 106);
 	
+}
+
+label {
+	line-height: 4;
+	padding-right: 30px;
 }
 
